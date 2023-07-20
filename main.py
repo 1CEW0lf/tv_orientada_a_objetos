@@ -5,6 +5,7 @@ from tv import TV
 television1 = TV("Sony", 56)
 
 while True:
+    print(telivision1.estatus_actual())
     print("Control remoto")
     print("1. Encender")
     print("2. Subir Volumen")
